@@ -1,0 +1,19 @@
+{
+  "name": "02-classes-inheritance-functional-programming",
+  "version": "0.0.1",
+  "description": "I love classes and inheritance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "faker": "^4.1.0",
+    "jest": "^24.8.0"
+  }
+}
