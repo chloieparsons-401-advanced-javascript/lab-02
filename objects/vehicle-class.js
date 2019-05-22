@@ -31,7 +31,7 @@ class Motorcycle {
       super(name);
     }
   }
-  wheelie();
+  wheelie()
 }
   
 module.exports = {Car, Motorcycle};

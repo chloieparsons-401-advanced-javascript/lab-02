@@ -9,7 +9,7 @@
 
 * Travis: https://www.travis-ci.com/chloieparsons-401-advanced-javascript/lab-02
 
-* Submission PR: 
+* Submission PR: https://github.com/chloieparsons-401-advanced-javascript/lab-02/pull/1
 
 
 
