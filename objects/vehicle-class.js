@@ -6,9 +6,14 @@ class Vehicle {
     this.wheels = wheels;
   }
 
-  drive();
-  stop(); 
-};
+  drive() {
+    return 'Moving Forward';
+  }
+
+  stop() {
+    return 'Stopping';
+  }
+}
 
 class Car extends Vehicle {
   constructor(name, wheels){
@@ -22,7 +27,7 @@ class Motorcycle extends Vehicle {
   }
 
   wheelie() { 
-    
+    return 'Wheeee';
   }
 }
   
