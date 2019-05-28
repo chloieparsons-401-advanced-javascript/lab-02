@@ -8,30 +8,22 @@ class Vehicle {
 
   drive();
   stop(); 
-}
+};
 
-class Car {
-  constructor(name){
-    this.name = name;
-  }
-
-  class Car extends Vehicle {
-    constructor(name){
-      super(name);
-    }
+class Car extends Vehicle {
+  constructor(name, wheels){
+    super(name, wheels);
   }
 }
 
-class Motorcycle {
-  constructor(name){
-    this,name = name;
+class Motorcycle extends Vehicle {
+  constructor(name, wheels){
+    super(name, wheels);
   }
-  class Motorcycle extends Vehicle {
-    constructor(name){
-      super(name);
-    }
+
+  wheelie() { 
+    
   }
-  wheelie()
 }
   
 module.exports = {Car, Motorcycle};
