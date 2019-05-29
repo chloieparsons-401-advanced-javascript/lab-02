@@ -15,13 +15,13 @@ Vehicle.prototype.stop = () => {
 
 // Car Constructor
 const Car = function(name) {
-  Vehicle.call(this, name, 4);
+  Vehicle.call(this.name, 4);
 };
 
 Car.prototype = new Vehicle();
 
 const Motorcycle = function(name) {
-  Vehicle.call(this,name,2);
+  Vehicle.call(this.name, 2);
 };
 
 Motorcycle.prototype = new Vehicle();

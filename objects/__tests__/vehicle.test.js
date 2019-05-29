@@ -14,9 +14,9 @@ describe('Vehicles', () => {
       switch(type) {
         case 'Constructor':
           return new VehicleConstructor.Car('foo');
-          case 'Class':
+        case 'Class':
           return new VehicleClass.Car('foo', 4);
-          case 'Factory':
+        case 'Factory':
           return new VehicleFactory.CarFactory('foo', 4);
         default:
           return {};
