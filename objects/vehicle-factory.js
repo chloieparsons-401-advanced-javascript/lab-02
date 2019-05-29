@@ -26,7 +26,7 @@ function MotorcycleFactory(name, wheels) {
     {name},
     {wheels},
     {wheelie},
-    Vehicle(),
+    Vehicle()
   );
   function wheelie() {return 'Wheee!';}
 
