@@ -49,8 +49,8 @@ describe('List Data Structure', () => {
 
   it('provides a callback for each element in the array, in order', () => {
     let stuff = new List();
-    stuff.push('1');
-    stuff.push('2');
+    stuff.push(1);
+    stuff.push(2);
     stuff.forEach(item => item+2);
     expect(stuff.length).toEqual(2);
     expect(stuff.data[0]).toEqual(3);
