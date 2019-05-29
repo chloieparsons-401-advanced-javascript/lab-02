@@ -42,7 +42,7 @@ List.prototype.shift = function() {
 List.prototype.unshift = function(item) {
   for (let i = this.length -1; i >=0; i--){ 
     this.data[i +1] = this.data[i];
-}
+  }
   this.data[0] = item;
   this.length++;
   return this.length;

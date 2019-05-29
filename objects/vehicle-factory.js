@@ -15,7 +15,7 @@ function CarFactory(name, wheels) {
   let car = Object.assign(
     {name},
     {wheels},
-    Vehicle(),
+    Vehicle()
   );
 
   return Object.freeze(car);
